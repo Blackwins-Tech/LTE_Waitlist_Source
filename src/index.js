@@ -1,0 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import StudentForm from './Components/lte-student/StudentForm';
+
+ReactDOM.render(
+  <React.StrictMode>
+
+    <App/>
+    {/* <StudentForm />
+     */}
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+reportWebVitals();

@@ -1,0 +1,43 @@
+/* App Common CSS */
+
+
+/* Initial Alignment */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Section --- Buttons */
+
+.com-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* PROGRESS BAR */
+
+.progressbar {
+    width: 70vw;
+    height: 10px;
+    background-color: #007BFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progressbar div {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+}
+
+.progressbar-percent {
+    float: right;
+    margin-top: -30px;
+    margin-right: 35px;
+}

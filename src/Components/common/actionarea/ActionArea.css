@@ -1,0 +1,24 @@
+/* Button - NEXT & SUBMIT */
+
+.btn-next,
+.btn-submit,
+.btn-cancel {
+    padding: 5px 15px 5px;
+}
+
+
+/* Button - CANCEL */
+
+.btn-cancel {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn-cancel:hover {
+    background-color: transparent;
+    border: none;
+    color: #000;
+}
